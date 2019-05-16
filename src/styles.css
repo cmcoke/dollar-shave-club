@@ -7,7 +7,7 @@ body {
 
 table {
   border-spacing: 0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #333333;
 }
 
@@ -18,6 +18,22 @@ td {
 img {
   border: 0;
   display: block;
+}
+
+p {
+  Margin: 0;
+}
+
+.h1 {
+  font-size: 30px;
+  font-weight: 800;
+  Margin-bottom: 18px;
+}
+
+.h2 {
+  font-size: 15px;
+  font-weight: 400;
+  Margin-bottom: 12px;
 }
 
 div[style*="margin: 16px 0"] {
@@ -61,10 +77,10 @@ div[style*="margin: 16px 0"] {
   text-align: left;
 }
 
-.one-column p {
+/* .one-column p {
   font-size: 14px;
   Margin-bottom: 10px;
-}
+} */
 
 /*Two column layout*/
 .two-column {
